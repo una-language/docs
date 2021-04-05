@@ -17,8 +17,6 @@ Add the babel plugin to your `babel.config.js`:
 }
 ```
 
-Setup your build tool to support transpiling `.una` files to JavaScript:
-
 ## NodeJS
 
 If you use `require` instead of `import` you need to pass `modules: 'require'` property to your plugin configuration in `babel.config.js` like this:
@@ -40,7 +38,7 @@ Add `una` extension to cli properties of `babel` and `babel-node` scripts in `pa
 }
 ```
 
-If you have problems setting it up check out [our Express example](https://github.com/una-language/examples/tree/main/express)
+For better understanding check out [our Express example](https://github.com/una-language/examples/tree/main/express)
 
 ## React
 
@@ -60,7 +58,7 @@ Then add `una` file extension to `babel-loader` in `config/webpack.config.js` li
 }
 ```
 
-If you have problems setting it up check out [our React example](https://github.com/una-language/examples/tree/main/react)
+For better understanding check out [our React example](https://github.com/una-language/examples/tree/main/react)
 
 ## React Native
 
@@ -74,4 +72,4 @@ module.exports = {
 }
 ```
 
-If you have problems setting it up check out [our React Native example](https://github.com/una-language/examples/tree/main/react-native)
+For better understanding check out [our React Native example](https://github.com/una-language/examples/tree/main/react-native)
