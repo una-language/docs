@@ -1,16 +1,48 @@
 module.exports = {
   docs: [
+    'installation',
+    'essentials',
+    'application',
+    'abstraction',
     {
       type: 'category',
-      label: 'Docusaurus Tutorial',
+      label: 'Data',
       items: [
-        'getting-started',
-        'create-a-page',
-        'create-a-document',
-        'create-a-blog-post',
-        'markdown-features',
-        'thank-you',
+        'data-basic-types',
+        'data-list',
+        'data-map'
       ],
     },
+    {
+      type: 'category',
+      label: 'Operators',
+      items: [
+        'operator-arithmetics',
+        'operator-logic',
+        'operator-comparison',
+        'operator-condition',
+        'operator-string-interpolation'
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Symmetries',
+      items: [
+        'symmetry-sync',
+        'symmetry-async',
+        'symmetry-error',
+        'symmetry-chaining',
+        'symmetry-module'
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Macros',
+      items: [
+        'macro-transform',
+        'macro-translate'
+      ],
+    },
+    'react'
   ],
 };
