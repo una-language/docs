@@ -24,11 +24,23 @@
   justify-content: center;
 }
 
+.feature {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
 .features {
   display: flex;
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+}
+
+.featuresRow {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .featureImage {

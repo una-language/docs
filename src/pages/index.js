@@ -8,35 +8,28 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Inspired by LISP',
+    imageUrl: 'img/lisp-logo.png',
     description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
+      <ul>
+          <li>Laconical syntax</li>
+          <li>Prefix ("Polish") notation</li>          
+          <li>Powerful macros</li>
+        </ul>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'JavaScript compatible',
+    imageUrl: 'img/js-logo.png',
     description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
+        <ul>
+          <li>Import JavaScript modules to Una</li>
+          <li>Export Una modules to JavaScript</li>
+          <li>Use any <code>npm</code> package in Una</li>
+          <li>Develop with NodeJS, React and React Native</li>
+        </ul>
     ),
-  },
-  {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+  }
 ];
 
 function Feature({imageUrl, title, description}) {
@@ -58,9 +51,7 @@ export default function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+    <Layout>
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -81,7 +72,7 @@ export default function Home() {
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
-              <div className="row">
+              <div className={styles.featuresRow}>
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />
                 ))}
