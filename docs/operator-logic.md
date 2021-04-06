@@ -10,8 +10,8 @@ Translated to JavaScript [logical AND operator](https://developer.mozilla.org/en
 It takes 2+ parameters.
 
 ```
-= a (& true false)
-= b (& true false false)
+& true false
+& true false false
 ```
 
 ## Or
@@ -21,8 +21,8 @@ Translated to JavaScript [logical OR operator](https://developer.mozilla.org/en-
 It takes 2+ parameters.
 
 ```
-= a (| true false)
-= b (| true false false)
+| true false
+| true false false
 ```
 
 ## Not
@@ -32,12 +32,12 @@ Translated to JavaScript [logical NOT operator](https://developer.mozilla.org/en
 It takes 1 parameter.
 
 ```
-= a (! true)
-= b (! false)
-= c (! a)
+! true
+! false
+! a
 ```
 
 Can be written simpler as:
 ```
-= a !b
+!a
 ```
