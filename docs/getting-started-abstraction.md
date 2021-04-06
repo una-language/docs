@@ -1,5 +1,6 @@
 ---
 title: Abstraction
+slug: /getting-started/abstraction
 ---
 
 Operator `=` creates an abstraction of a part of your program under the defined name.

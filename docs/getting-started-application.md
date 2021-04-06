@@ -1,5 +1,6 @@
 ---
 title: Application
+slug: /getting-started/application
 ---
 
 Application order is set by parentheses and indentation.

@@ -8,15 +8,7 @@ module.exports = {
         'getting-started-essentials',
         'getting-started-application',
         'getting-started-abstraction',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Data',
-      items: [
-        'data-basic-types',
-        'data-list',
-        'data-map'
+        'getting-started-data-types',
       ],
     },
     {
@@ -28,6 +20,14 @@ module.exports = {
         'operator-comparison',
         'operator-condition',
         'operator-string-interpolation'
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Collections',
+      items: [
+        'collection-list',
+        'collection-map'
       ],
     },
     {
