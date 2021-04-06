@@ -1,9 +1,15 @@
 module.exports = {
   docs: [
     'installation',
-    'essentials',
-    'application',
-    'abstraction',
+    {
+      type: 'category',
+      label: 'Getting Started',
+      items: [
+        'getting-started-essentials',
+        'getting-started-application',
+        'getting-started-abstraction',
+      ],
+    },
     {
       type: 'category',
       label: 'Data',
@@ -43,6 +49,13 @@ module.exports = {
         'macro-translate'
       ],
     },
-    'react'
+    {
+      type: 'category',
+      label: 'Miscellaneous',
+      items: [
+        'misc-react',
+        'misc-styled-components'
+      ],
+    }
   ],
 };

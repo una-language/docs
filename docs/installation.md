@@ -38,7 +38,7 @@ Add `una` extension to cli properties of `babel` and `babel-node` scripts in `pa
 }
 ```
 
-For better understanding check out [our Express example](https://github.com/una-language/examples/tree/main/express)
+In case of problems check out [our Express example](https://github.com/una-language/examples/tree/main/express)
 
 ## React
 
@@ -58,7 +58,7 @@ Then add `una` file extension to `babel-loader` in `config/webpack.config.js` li
 }
 ```
 
-For better understanding check out [our React example](https://github.com/una-language/examples/tree/main/react)
+In case of problems check out [our React example](https://github.com/una-language/examples/tree/main/react)
 
 ## React Native
 
@@ -72,4 +72,4 @@ module.exports = {
 }
 ```
 
-For better understanding check out [our React Native example](https://github.com/una-language/examples/tree/main/react-native)
+In case of problems check out [our React Native example](https://github.com/una-language/examples/tree/main/react-native)
