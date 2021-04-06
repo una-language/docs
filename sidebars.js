@@ -27,8 +27,8 @@ module.exports = {
       type: 'category',
       label: 'Collections',
       items: [
-        'collection-list',
-        'collection-map'
+        'collection-map',
+        'collection-list'
       ],
     },
     {
