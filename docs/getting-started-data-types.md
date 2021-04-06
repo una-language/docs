@@ -36,3 +36,10 @@ You can declare a string using single or double quotes.
 true
 false
 ```
+
+## JavaScript null and undefined
+
+```
+null
+undefined
+```
