@@ -5,7 +5,7 @@ module.exports = {
       type: 'category',
       label: 'Getting Started',
       items: [
-        'getting-started-essentials',
+        'getting-started-essence',
         'getting-started-application',
         'getting-started-abstraction',
         'getting-started-data-types',
