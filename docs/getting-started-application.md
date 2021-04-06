@@ -39,7 +39,7 @@ a
   b c
 ```
 
-or even: 
+or: 
 
 ```
 a
