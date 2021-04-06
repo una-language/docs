@@ -1,11 +1,12 @@
 ---
-title: Arithmetics
+title: Arithmetical
 slug: /operators/arithmetics
 ---
 
 ## Addition 
 
-Translates to JavaScript [addition operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition) <br/>
+Symbol: `+` <br/>
+Translated to JavaScript [addition operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition) <br/>
 It takes 2+ parameters.
 
 ```
@@ -20,7 +21,8 @@ Also can be used for string concatenation:
 
 ## Subtraction
 
-Translates to JavaScript [subtraction operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Subtraction) <br/>
+Symbol: `-` <br/>
+Translated to JavaScript [subtraction operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Subtraction) <br/>
 
 If it has 1 parameter it works as unary `-` and negates the number:
 ```
@@ -35,7 +37,8 @@ If it takes 2+ parameters it works as subtraction
 
 ## Multiplication
 
-Translates to JavaScript [multiplication operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Multiplication) <br/>
+Symbol: `*` <br/>
+Translated to JavaScript [multiplication operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Multiplication) <br/>
 It takes 2+ parameters.
 
 ```
@@ -45,7 +48,8 @@ It takes 2+ parameters.
 
 ## Division
 
-Translates to JavaScript [division operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Division) <br/>
+Symbol: `/` <br/>
+Translated to JavaScript [division operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Division) <br/>
 It takes 2+ parameters.
 
 ```
@@ -55,7 +59,8 @@ It takes 2+ parameters.
 
 ## Remainder
 
-Translates to JavaScript [remainder operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder) <br/>
+Symbol: `%` <br/>
+Translated to JavaScript [remainder operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder) <br/>
 It takes 2+ parameters.
 
 ```

@@ -1,5 +1,5 @@
 ---
-title: Condition
+title: Conditional
 slug: /operators/condtion
 ---
 
