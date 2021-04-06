@@ -19,7 +19,8 @@ module.exports = {
         'operator-logic',
         'operator-comparison',
         'operator-condition',
-        'operator-string-interpolation'
+        'operator-string-interpolation',
+        'operator-bitwise-shift'
       ],
     },
     {
