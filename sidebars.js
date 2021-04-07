@@ -54,6 +54,7 @@ module.exports = {
       type: 'category',
       label: 'Miscellaneous',
       items: [
+        'misc-javascript-api',
         'misc-react',
         'misc-styled-components'
       ],
