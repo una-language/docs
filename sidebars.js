@@ -33,6 +33,14 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Collection operators',
+      items: [
+        'collection-operator-field',
+        'collection-operator-expansion'
+      ],
+    },
+    {
+      type: 'category',
       label: 'Symmetries',
       items: [
         'symmetry-sync',
