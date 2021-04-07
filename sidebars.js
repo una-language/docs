@@ -20,7 +20,8 @@ module.exports = {
         'operator-comparison',
         'operator-condition',
         'operator-string-interpolation',
-        'operator-bitwise-shift'
+        'operator-bitwise-shift',
+        'operator-other'
       ],
     },
     {
@@ -63,8 +64,7 @@ module.exports = {
       label: 'Miscellaneous',
       items: [
         'misc-javascript-api',
-        'misc-react',
-        'misc-styled-components'
+        'misc-react'
       ],
     }
   ],

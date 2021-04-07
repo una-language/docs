@@ -4,7 +4,10 @@ slug: /symmetry/module
 ---
 
 Symmetry of module importing and exporting. <br/>
-Una modules are fully compatiable with JavaScript. You can import JavaScript modules to Una and you can import Una modules to JavaScript.
+
+Una modules are fully compatiable with JavaScript. <br/>
+You can import JavaScript modules to Una and you can import Una modules to JavaScript. <br/>
+For better understanding of how to use it you can look at [this example](https://github.com/una-language/examples/tree/main/nodejs/src/15_module_symmetry)
 
 ## Import
 
