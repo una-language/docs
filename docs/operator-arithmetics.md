@@ -3,7 +3,7 @@ title: Arithmetical
 slug: /operators/arithmetics
 ---
 
-## Addition 
+## Addition
 
 Symbol: `+` <br/>
 Translated to JavaScript [addition operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition) <br/>
@@ -15,6 +15,7 @@ It takes 2+ parameters.
 ```
 
 Also can be used for string concatenation:
+
 ```
 + 'Hello, ' 'World!'
 ```
@@ -25,11 +26,13 @@ Symbol: `-` <br/>
 Translated to JavaScript [subtraction operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Subtraction) <br/>
 
 If it has 1 parameter it works as unary `-` and negates the number:
+
 ```
 - 1
 ```
 
 If it takes 2+ parameters it works as subtraction
+
 ```
 - 2 1
 - 10 3 2
@@ -66,6 +69,17 @@ It takes 2+ parameters.
 ```
 % 5 2
 % 25 7 2
+```
+
+## Exponentiation
+
+Symbol: `**` <br/>
+Translated to JavaScript [exponentiation operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Exponentiation) <br/>
+It takes 2+ parameters.
+
+```
+** 2 2
+** 2 3 5
 ```
 
 ## Example
