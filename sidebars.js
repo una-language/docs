@@ -28,12 +28,7 @@ module.exports = {
     {
       type: "category",
       label: "Collections",
-      items: ["collection-map", "collection-list"],
-    },
-    {
-      type: "category",
-      label: "Collection operators",
-      items: ["collection-operator-field", "collection-operator-expansion"],
+      items: ["collection-map", "collection-list", "collection-operator-field", "collection-operator-expansion"],
     },
     {
       type: "category",
