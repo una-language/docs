@@ -6,7 +6,21 @@ slug: /collection-operator/expansion
 Symbol: `...`
 Expansion operator `...` works just like in JavaScript for construction and deconstruction of lists and maps.
 
+Can work in two ways. <br/>
+Together with value:
+
+```
+...a
+```
+
+or separated:
+
+```
+... a
+```
+
 Example:
+
 ```
 = threeNumbers :: 1 2 3
 = fiveNumbers :: ...threeNumbers 45
