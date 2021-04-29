@@ -11,7 +11,7 @@ For better understanding of how to use it you can look at [this example](https:/
 
 ## Import
 
-Symbol: `-->` <br/>
+Symbol: `=->` <br/>
 Translated to JavaScript `require` or `import`. 
 First parameter is path.
 The second parameter is imported object.
@@ -41,7 +41,7 @@ You can import default from module and other fields:
 
 ## Export
 
-Symbol: `-->` <br/>
+Symbol: `<-=` <br/>
 Translated to JavaScript `module.exports` or `export` or `export default`. 
 
 If you pass `modules: 'require'` to babel plugin options it works as `modules.export =`. <br/>
