@@ -1,13 +1,14 @@
 import styled from 'styled-components'
 
 export const backgroundColor = '#f7f7f7'
+const borderColor = `#a7a7a7`
 
 const height = 320
 
 export default {
   Card: styled.div`
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid ${borderColor};
     display: flex;
     flex-direction: row;
     height: ${height}px;
@@ -15,7 +16,7 @@ export default {
     width: 90%;
   `,
   Code: styled.div`
-    border-right: ${({ withoutRightBorder }) => (withoutRightBorder ? 0 : 1)}px solid black;
+    border-right: ${({ withoutRightBorder }) => (withoutRightBorder ? 0 : 1)}px solid ${borderColor};
     height: ${height}px;
     padding: 8px;
   `,
@@ -31,7 +32,7 @@ export default {
     flex-direction: column;
   `,
   PartContainer: styled.div`
-    border-right: ${({ withoutRightBorder }) => (withoutRightBorder ? 0 : 1)}px solid black;
+    border-right: ${({ withoutRightBorder }) => (withoutRightBorder ? 0 : 1)}px solid ${borderColor};
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -43,7 +44,7 @@ export default {
     padding: ${({ noPadding }) => (noPadding ? 0 : 8)}px;
   `,
   PartTitle: styled.div`
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid ${borderColor};
     font-weight: bold;
     padding-bottom: 8px;
     padding-top: 8px;
