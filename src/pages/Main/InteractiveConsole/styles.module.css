@@ -1,3 +1,9 @@
+.codeInput {
+  background-color: #f7f7f7;
+  border: none;
+  flex: 1;
+}
+
 .container {
 }
 
@@ -10,10 +16,25 @@
 }
 
 .part {
-  background-color: red;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   margin: 10px;
-  height: 400px;
-  width: 400px;
+  width: 460px;
+}
+
+.partInnerContainer {
+  border: 1px solid #a7a7a7;
+  display: flex;
+  height: 220px;
+  width: 460px;
+}
+
+.partTitle {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 8px;
+  text-align: center;
 }
 
 .title {
