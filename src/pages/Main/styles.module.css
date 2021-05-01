@@ -47,3 +47,11 @@
   height: 200px;
   width: 200px;
 }
+
+.section {
+  margin: 20px;
+}
+
+.sectionGrey {
+  background-color: #f7f7f7;
+}

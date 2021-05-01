@@ -1,0 +1,25 @@
+.container {
+}
+
+.innerContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.part {
+  background-color: red;
+  margin: 10px;
+  height: 400px;
+  width: 400px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
