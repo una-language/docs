@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.list {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.listImage {
+  height: 200px;
+  width: 200px;
+}
+
+.listTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
