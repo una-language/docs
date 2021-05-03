@@ -12,7 +12,3 @@ Usually takes 2+ parameters.
 ```
 ?? null 2
 ```
-
-## Optional chaining
-
-Not implemented yet
