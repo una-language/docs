@@ -43,4 +43,4 @@ ReactDOM.render
   document.getElementById 'root'
 ```
 
-For better understanding you can check out [React example](https://github.com/una-language/examples/tree/main/react) and [React Native example](https://github.com/una-language/examples/tree/main/react-native)
+For better understanding you can check out [React example](https://github.com/una-language/example-react) and [React Native example](https://github.com/una-language/example-react-native)

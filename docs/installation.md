@@ -38,7 +38,7 @@ Add `una` extension to cli properties of `babel` and `babel-node` scripts in `pa
 }
 ```
 
-In case of problems check out [our Express example](https://github.com/una-language/example-express)
+In case of problems check out [our Node example](https://github.com/una-language/example-node)
 
 ## React
 
