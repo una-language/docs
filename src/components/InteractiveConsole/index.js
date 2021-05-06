@@ -31,7 +31,7 @@ class InteractiveConsole extends React.PureComponent {
     const { js, result } = this.state
     return (
       <div className={styles.container}>
-        <div className={styles.title}>Try it out!</div>
+        <div className={styles.title}>Try it out in the interactive REPL console!</div>
         <div className={styles.innerContainer}>
           {this.renderPart(
             'Una',

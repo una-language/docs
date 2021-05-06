@@ -6,27 +6,14 @@ class Features extends React.PureComponent {
     <div className={styles.list}>
       <img className={styles.listImage} src={image} alt={title} />
       <div className={styles.listTitle}>{title}</div>
-      <ul>
-        {features.map((feature, index) => (
-          <li key={index.toString()}>{feature}</li>
-        ))}
-      </ul>
     </div>
   )
 
   render = () => (
     <div className={styles.container}>
-      {this.renderList('Inspired by LISP', 'img/lisp-logo.png', [
-        'Laconical syntax',
-        'Prefix notation',
-        'Powerful macros'
-      ])}
-      ,
-      {this.renderList('JavaScript compatible', 'img/js-logo.png', [
-        'Import JavaScript modules to Una',
-        'Use any npm package in Una',
-        'Works with React and React Native'
-      ])}
+      {this.renderList('JavaScript compatible', 'img/js-logo.png')}
+      {this.renderList('Use any npm package', 'img/npm-logo.png')}
+      {this.renderList('Works with React and React Native', 'img/react-logo.png')}
     </div>
   )
 }

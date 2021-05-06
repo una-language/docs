@@ -1,12 +1,12 @@
 import clsx from 'clsx'
 import Features from '../components/Features'
 import InteractiveConsole from '../components/InteractiveConsole'
-import React from 'react'
 import Layout from '@theme/Layout'
 import Link from '@docusaurus/Link'
+import React from 'react'
+import styles from './styles.module.css'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import useBaseUrl from '@docusaurus/useBaseUrl'
-import styles from './styles.module.css'
 
 export default function Home() {
   const context = useDocusaurusContext()
