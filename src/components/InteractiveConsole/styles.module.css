@@ -1,7 +1,9 @@
 .codeInput {
-  background-color: #f7f7f7;
+  background-color: #fdfdfd;
   border: none;
+  border-radius: 4px;
   flex: 1;
+  padding: 10px;
 }
 
 .container {
@@ -26,7 +28,8 @@
 }
 
 .partInnerContainer {
-  border: 1px solid #a7a7a7;
+  background-color: #fdfdfd;
+  border-radius: 4px;
   display: flex;
   height: 220px;
   width: 460px;
@@ -37,6 +40,10 @@
   font-size: 18px;
   margin: 8px;
   text-align: center;
+}
+
+.result {
+  padding: 10px;
 }
 
 .title {

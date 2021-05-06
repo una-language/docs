@@ -43,14 +43,14 @@ class InteractiveConsole extends React.PureComponent {
               <SyntaxHighlighter
                 language='javascript'
                 style={atomOneLight}
-                customStyle={{ backgroundColor: '#f7f7f7', flex: 1 }}>
+                customStyle={{ backgroundColor: '#fdfdfd', borderRadius: '4px', flex: 1 }}>
                 {js.value}
               </SyntaxHighlighter>
             ) : (
               js.error
             )
           )}
-          {this.renderPart('Result', result.value || result.error)}
+          {this.renderPart('Result', <div className={styles.result}>{result.value || result.error}</div>)}
         </div>
       </div>
     )
