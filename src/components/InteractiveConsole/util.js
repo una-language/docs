@@ -25,7 +25,7 @@ const una2JS = code => {
 
 const evalJS = code => {
   try {
-    return { value: eval(code) }
+    return { value: JSON.stringify(eval(code)) }
   } catch (error) {
     return { error: error.message }
   }
