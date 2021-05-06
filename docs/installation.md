@@ -44,21 +44,32 @@ In case of problems check out [our Express example](https://github.com/una-langu
 
 I assume that you use `create-react-app`.
 
-Add `una` file extension to `moduleFileExtensions` in `config/paths.js` like this:
+You need to use `react-app-rewired` with `customize-cra` to make Una work 
 
-```javascript
-const moduleFileExtensions = [..., 'una']
+Install the tools: 
+```
+npm install --save-dev react-app-rewired customize-cra
 ```
 
-Then add `una` file extension to `babel-loader` in `config/webpack.config.js` like this:
+Add the file `config-overrides.js` with the following content:
+```
+const { getBabelLoader } = require("customize-cra");
 
-```javascript
-{
-  test: /\.(js|mjs|jsx|ts|tsx|una)$/;
+module.exports = {
+    webpack:  config => {
+        const babel = getBabelLoader(config)
+        babel.options.plugins.push('una-language')
+        babel.test =  /\.(js|mjs|jsx|ts|tsx|una)$/
+        return config
+    },
+    paths: (config) => {
+        config.moduleFileExtensions = [...config.moduleFileExtensions, 'una']
+        return config
+    }
 }
 ```
 
-In case of problems check out [our React example](https://github.com/una-language/examples/tree/main/react)
+In case of problems check out [our React example](https://github.com/una-language/example-react)
 
 ## React Native
 
@@ -67,9 +78,9 @@ Add `una` file extension to `metro.config.js` like this:
 ```javascript
 module.exports = {
     resolver: {
-        sourceExts: [..., 'una']
+        sourceExts: [...defaultConfig.resolver.sourceExts, 'una']
     }
 }
 ```
 
-In case of problems check out [our React Native example](https://github.com/una-language/examples/tree/main/react-native)
+In case of problems check out [our React Native example](https://github.com/una-language/example-react-native)
