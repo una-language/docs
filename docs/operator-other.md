@@ -19,7 +19,7 @@ new Date ()
 new Cat "red"
 ```
 
-## Typeof
+## Type of
 
 Symbol: `typeof`. <br/>
 Translated to JavaScript [typeof operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof).<br/>
@@ -27,4 +27,14 @@ It takes 1 parameter.
 
 ```
 typeof 'Hello'
+```
+
+## Instance of
+
+Symbol: `instanceof`. <br/>
+Translated to JavaScript [typeof operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof).<br/>
+It takes 2 parameters.
+
+```
+instanceof func Function
 ```
