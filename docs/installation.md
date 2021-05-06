@@ -3,6 +3,8 @@ title: Installation
 slug: /
 ---
 
+Una requires `NodeJS` version to be `>=14`
+
 Install transpiler and babel plugin:
 
 ```
@@ -13,7 +15,7 @@ Add the babel plugin to your `babel.config.js`:
 
 ```javascript
 {
-  plugins: ["una-language"];
+  plugins: ['una-language']
 }
 ```
 
@@ -44,14 +46,16 @@ In case of problems check out [our Node example](https://github.com/una-language
 
 I assume that you use `create-react-app`.
 
-You need to use `react-app-rewired` with `customize-cra` to make Una work 
+You need to use `react-app-rewired` with `customize-cra` to make Una work
 
-Install the tools: 
+Install the tools:
+
 ```
 npm install --save-dev react-app-rewired customize-cra
 ```
 
 Add the file `config-overrides.js` with the following content:
+
 ```
 const { getBabelLoader } = require("customize-cra");
 
@@ -77,9 +81,9 @@ Add `una` file extension to `metro.config.js` like this:
 
 ```javascript
 module.exports = {
-    resolver: {
-        sourceExts: [...defaultConfig.resolver.sourceExts, 'una']
-    }
+  resolver: {
+    sourceExts: [...defaultConfig.resolver.sourceExts, 'una']
+  }
 }
 ```
 
