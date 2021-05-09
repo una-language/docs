@@ -37,7 +37,7 @@ After it in your code you use this operator:
 console.log (+++ 1 2)
 ```
 
-It translates to:
+It translates to JavaScript as:
 
 ```
 console.log(1 + 2)
