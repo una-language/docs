@@ -43,8 +43,8 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Macros',
-      items: ['macro-transform', 'macro-translate']
+      label: 'Custom operators',
+      items: ['custom-translate', 'custom-transform']
     },
     {
       type: 'category',
