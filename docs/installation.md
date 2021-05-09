@@ -3,8 +3,6 @@ title: Installation
 slug: /
 ---
 
-Una requires `NodeJS` version to be `>=14`
-
 Install transpiler and babel plugin:
 
 ```
