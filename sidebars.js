@@ -22,7 +22,8 @@ module.exports = {
         'operator-nullish',
         'operator-string-interpolation',
         'operator-bitwise-shift',
-        'operator-other'
+        'operator-other',
+        'operator-custom'
       ]
     },
     {
@@ -40,11 +41,6 @@ module.exports = {
       type: 'category',
       label: 'Symmetries',
       items: ['symmetry-sync', 'symmetry-async', 'symmetry-error', 'symmetry-chaining', 'symmetry-module']
-    },
-    {
-      type: 'category',
-      label: 'Custom operators',
-      items: ['custom-translate', 'custom-transform']
     },
     {
       type: 'category',
