@@ -35,6 +35,16 @@ It takes 1 parameter.
 _! 0
 ```
 
+## Bitwise XOR
+
+Symbol: `_^` <br/>
+Translated to JavaScript [bitwise XOR operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_XOR) <br/>
+It takes 2 parameters.
+
+```
+_^ 0 1
+```
+
 ## Right shift
 
 Symbol: `_>>` <br/>
