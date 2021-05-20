@@ -49,7 +49,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Miscellaneous',
-      items: ['misc-javascript-api', 'misc-react']
+      items: ['misc-javascript-api', 'misc-regexp', 'misc-react']
     }
   ]
 }
