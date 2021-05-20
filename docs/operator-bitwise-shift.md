@@ -39,7 +39,7 @@ _! 0
 
 Symbol: `_^` <br/>
 Translated to JavaScript [bitwise XOR operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_XOR) <br/>
-It takes 2 parameters.
+It takes 2+ parameters.
 
 ```
 _^ 0 1
