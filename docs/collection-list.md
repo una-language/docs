@@ -6,11 +6,10 @@ slug: /collection/list
 Symbol: `::` <br/>
 Translated to JavaScript array.
 
-
 ## Construction
 
-
 Example:
+
 ```
 = numbers :: 1 2 3
 ```
@@ -37,11 +36,12 @@ You can use already declared names as elements of list:
 = numbers :: a 2 3
 ```
 
-#### Deconstruction
+## Deconstruction
 
 You can put a list to first argument of abstraction operator `=`. In this case it deconstructs the value to it's structure and create named abstractions from its fields.
 
 Example:
+
 ```
 = numbers :: 1 2 3
 = (:: one two three) numbers
