@@ -1,6 +1,6 @@
 ---
-title: Other
-slug: /operators/other
+title: JavaScript special
+slug: /operators/javascript
 ---
 
 There are a few operators in Una for compatibility with JavaScript
