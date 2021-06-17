@@ -22,7 +22,7 @@ module.exports = {
         'operator-nullish',
         'operator-string-interpolation',
         'operator-bitwise-shift',
-        'operator-javascript-special',
+        'operator-javascript-specific',
         'operator-custom'
       ]
     },
